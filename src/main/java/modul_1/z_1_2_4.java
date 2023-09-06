@@ -10,7 +10,5 @@ public class z_1_2_4 {
         float varFloat = 60;
         double varDouble = 70;
         boolean h;
-
-
     }
 }
