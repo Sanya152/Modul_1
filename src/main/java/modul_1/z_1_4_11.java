@@ -2,8 +2,9 @@ package modul_1;
 
 public class z_1_4_11 {
     public static void main(String[] args) {
-        System.out.println(isWeekend("Sunda"));
+        System.out.println(isWeekend("Sunday"));
     }
+
     public static boolean isWeekend(String weekday) {
         if (weekday == "Saturday") {
             return true;
