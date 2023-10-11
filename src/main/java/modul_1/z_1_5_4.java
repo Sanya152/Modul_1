@@ -3,7 +3,7 @@ package modul_1;
 public class z_1_5_4 {
     public static void main(String[] args) {
         z_1_5_4 dich = new  z_1_5_4();
-        z_1_5_4.getSubArrayBetween(new int[]{1, 3, 5, 6, 9, 11, 24}, 4, 10);
+        z_1_5_4.getSubArrayBetween(new int[]{1, 3, 5, 6, 9, 11, 24}, 2, 108);
     }
     public static int[] getSubArrayBetween(int[] numbers, int start, int end) {
         int a = 0;
