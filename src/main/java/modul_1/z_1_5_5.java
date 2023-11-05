@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class z_1_5_5 {
     public static void main(String[] args) {
         z_1_5_5 dich2 = new z_1_5_5();
-        z_1_5_5.getArrayMiddle(new int[]{});
+        z_1_5_5.getArrayMiddle(new int[]{1, 3, 5});
     }
     public static int[] getArrayMiddle(int[] numbers) {
             if (numbers.length > 2) {
