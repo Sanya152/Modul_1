@@ -2,7 +2,7 @@ package modul_1;
 
 public class z_1_4_9 {
     public static void main(String[] args) {
-        System.out.println(determineGroup(865));
+        System.out.println(determineGroup(897));
     }
 
     static public int determineGroup(int age) {
@@ -14,6 +14,6 @@ public class z_1_4_9 {
         }
         if (age >= 18 && age <= 65) {
             return 3;
-        } else return 0;
+        } else return  Integer.parseInt("-1");
     }
 }
