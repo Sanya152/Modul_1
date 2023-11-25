@@ -13,7 +13,7 @@ public class z_1_5_12 {
         System.out.println(IntStream.of(arr)
                 .filter(i -> (i & 1) == 1)
                 .mapToObj(Integer::toString)
-                .collect(Collectors.joining(", ")));
+                .collect(Collectors.joining(",")));
         System.out.println("");
     }
 }

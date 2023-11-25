@@ -11,9 +11,5 @@ package modul_1;
  *
  */
 public class test {
-    public static void main(String[] args) {
-        z_1_3_3 z133 = new z_1_3_3();
-        System.out.println(z133);
 
     }
-}
